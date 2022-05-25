@@ -13,7 +13,7 @@
     
 }
 
-/* island ground */
+/* island ground circles */
 
 #ground-1 {
     background-color: wheat;
@@ -70,7 +70,7 @@
   text-align: center;
 }
 
-/* start of tree plant stump */
+/* start of tree plant stump rectangles */
 #tree-stump {
     background-color: sandybrown;
     position: absolute;
@@ -199,7 +199,7 @@
     height: 20px;
     border-radius: 50%;
 }
-/* fill in the green */
+/* fill in the green circle*/
 #leaf-circle {
     background-color: rgb(25, 108, 2);
     position: absolute;
