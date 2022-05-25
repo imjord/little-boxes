@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+/* postions relative to this */
+#relative {
+    position: relative;
+    height: 975px;
+   background-color: skyblue;
+   
+    
+}
+
+/* island ground */
+
+#ground-1 {
+    background-color: wheat;
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  height: 150px;
+  margin-left: 35%;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+}
+
+#ground-2 {
+    background-color: wheat;
+    position: fixed;
+  left: 50px;
+  bottom: 0;
+  width: 50%;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 35%;
+  transform: skew(-100deg);
+  color: white;
+  text-align: center;
+}
+
+#ground-3 {
+    background-color: wheat;
+    position: fixed;
+  left: -600px;
+  bottom: 0;
+  width: 50%;
+  height: 150px;
+  margin-left: 35%;
+  border-radius: 50%;
+  transform: skew(100deg);
+  color: white;
+  text-align: center;
+}
+
+#ground-4 {
+    background-color: wheat;
+    position: fixed;
+  left: -700px;
+  transform: skew(100deg);
+  bottom: 0;
+  width: 50%;
+  height: 150px;
+  margin-left: 35%;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+}
+
+/* start of tree plant stump */
+#tree-stump {
+    background-color: sandybrown;
+    position: absolute;
+    bottom: 130px;
+    left: 50%;
+    right: 50%;
+    width: 60px;
+    height: 200px;
+    border-radius: 5px;
+
+}
+
+#tree-stump-two {
+    background-color: sandybrown;
+    position: absolute;
+    bottom: 320px;
+    left: 50%;
+    z-index: 2;
+    right: 50%;
+    width: 60px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+#tree-stump-three {
+    background-color: rgb(108, 51, 2);
+    position: absolute;
+   
+    bottom: 400px;
+    left: 50%;
+    right: 50%;
+    width: 60px;
+    height: 200px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* first leaf */
+#leaf {
+    background-color: rgb(25, 108, 2);
+    position: absolute;
+   transform: rotate(35deg);
+    bottom: 400px;
+    left: 46%;
+    z-index: 3;
+    right: 50%;
+    width: 60px;
+    height: 200px;
+    border-radius: 45%;
+
+}
+
+#leaf-two {
+   
+        background-color: rgb(25, 108, 2);
+        position: absolute;
+       transform: rotate(100deg);
+        bottom: 500px;
+        left: 44%;
+        z-index: 5;
+        width: 60px;
+        height: 200px;
+        border-radius: 45%;
+    
+    
+}
+
+#leaf-three {
+    background-color: rgb(25, 108, 2);
+        position: absolute;
+       transform: rotate(1200deg);
+        bottom: 420px;
+        left: 55%;
+        z-index: 5;
+        width: 60px;
+        height: 200px;
+        border-radius: 45%;
+}
+
+#leaf-four {
+    background-color: rgb(25, 108, 2);
+    position: absolute;
+   transform: rotate(260deg);
+    bottom: 490px;
+    left: 55%;
+    z-index: 5;
+    width: 60px;
+    height: 200px;
+    border-radius: 45%;
+}
+
+/* tiny leaves on top of plant */
+
+#leaf-head {
+    background-color: rgb(25, 108, 2);
+    position: absolute;
+    bottom: 593px;
+    transform: rotate(150deg);
+    left: 51%;
+    z-index: 5;
+    width: 50px;
+    height: 20px;
+    border-radius: 45%;
+}
+
+#leaf-head-two {
+    background-color: rgb(25, 108, 2);
+    position: absolute;
+    bottom: 593px;
+    transform: rotate(50deg);
+    left: 49%;
+    z-index: 5;
+    width: 50px;
+    height: 20px;
+    border-radius: 45%;
+}
+
+#leaf-head-three {
+    background-color: rgb(25, 108, 2);
+    position: absolute;
+    bottom: 593px;
+    transform: rotate(70deg);
+    left: 50%;
+    z-index: 5;
+    width: 50px;
+    height: 20px;
+    border-radius: 50%;
+}
+/* fill in the green */
+#leaf-circle {
+    background-color: rgb(25, 108, 2);
+    position: absolute;
+    bottom: 563px;
+    left: 50.5%;
+    z-index: 5;
+    width: 25px;
+    height: 25px;
+    border-radius: 90%;
+}
